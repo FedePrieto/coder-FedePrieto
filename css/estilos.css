@@ -1,0 +1,90 @@
+/*COLOR DE FONDO*/
+body{
+    background-color: wheat;
+}
+.nav{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+.ul{
+    display: flex;
+    justify-content: center;
+}
+.li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 50px;
+}
+.a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.videos{
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+    
+.cuadrado1{
+    margin: 0 10px 0 0;
+}
+/* Todos los estilos*/
+.Messi_Titulo{
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.imagen_inicio{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imagenes_pagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+    
+    
+    
+
+    
+.Titulos{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.prueba_parrafo{
+    font-size: 21;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+    
+.contactos{
+    font-size: 21;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
