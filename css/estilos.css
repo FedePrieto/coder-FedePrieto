@@ -1,7 +1,10 @@
 /*COLOR DE FONDO*/
 body{
-    background-color: wheat;
+    background-image: url(../img/arg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .nav{
     background-color: black;
     height: 40px;
@@ -53,8 +56,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
+    
     
     
     
@@ -71,6 +74,7 @@ body{
 .prueba_parrafo{
     font-size: 21;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
     
 }
     
@@ -80,7 +84,9 @@ body{
     font-weight: bolder;
 }
 
-
+.titulo_inicio{
+    font-weight: bolder;
+}
 
 
 
