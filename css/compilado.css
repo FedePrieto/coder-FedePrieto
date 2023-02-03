@@ -50,6 +50,12 @@
   flex-direction: column;
   justify-content: center; }
 
+.imagen_inicio {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; }
+
 body {
   background-image: url(../img/arg.png);
   background-repeat: no-repeat;
@@ -266,20 +272,10 @@ li a.active, li a:hover {
     width: 0 20%;
     height: 0 20px; } }
 
-body {
-  background-image: url(../img/arg.png);
+.imagen-fondo {
+  background-image: url("../../img/arg.png");
   background-repeat: no-repeat;
   background-size: cover; }
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; }
-
-nav {
-  background: black;
-  height: 80px;
-  width: 100%; }
 
 .Titulos {
   text-decoration: underline;
