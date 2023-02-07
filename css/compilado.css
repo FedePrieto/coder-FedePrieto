@@ -9,56 +9,19 @@
 
 .texto-formulario {
   font-weight: bold;
-  margin-left: 15px; }
+  margin-left: 15px;
+  color: #fff; }
 
 .texto-sorteo {
   font-weight: bolder;
   margin-left: 15px;
   font-family: Arial, Helvetica, sans-serif; }
 
-/*responsive en formulario*/
-@media (max-width: 425px) {
-  .texto-formulario {
-    font-weight: bold;
-    margin-left: 12px;
-    margin-right: 10px; }
-  .boton-inicio {
-    display: inline-flex;
-    padding: 0 40% 0;
-    background-color: black;
-    color: #fff;
-    text-align: left; } }
-
-@media (max-width: 768px) {
-  .texto-formulario {
-    font-weight: bold;
-    margin-left: 12px;
-    margin-right: 10px; }
-  .imagen-formulario {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center; }
-  .boton-inicio {
-    display: block;
-    padding: 0 40% 0;
-    background-color: black;
-    color: #fff;
-    text-align: left; } }
-
 .imagenes_pagina {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px; }
-
-/*Responsive en imagenes*/
-@media (max-width: 425px) {
-  .imagenes_pagina {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-    .imagenes_pagina img {
-      width: 100%; } }
 
 body {
   background-image: url(../img/arg.png);
@@ -134,148 +97,6 @@ li a.active, li a:hover {
   display: flex;
   justify-content: center; }
 
-/* resposive en el index*/
-@media (max-width: 425px) {
-  .Messi_Titulo {
-    color: black;
-    font-size: 25px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center; }
-  .imagen_inicio {
-    margin: 0 0 0 100px;
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    height: 200px; }
-  .titulo_inicio {
-    font-weight: bolder;
-    font-size: 13px; }
-  .checkbtn {
-    display: block; }
-  ul {
-    position: fixed;
-    width: 60%;
-    height: 100vh;
-    background: black;
-    top: 60px;
-    left: -70%;
-    text-align: center;
-    transition: all .5s;
-    flex-direction: column; }
-  nav ul li {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px; }
-  nav ul li a {
-    font-size: 20px; }
-  li a:hover, li a.active {
-    background: none;
-    color: red; }
-  #check:checked ~ ul {
-    left: 0; }
-  .videos {
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    width: 100%;
-    max-width: 300px; } }
-
-@media (max-width: 768px) {
-  .Messi_Titulo {
-    color: black;
-    font-size: 45px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center; }
-  .imagen_inicio {
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 0 500px;
-    height: 0 500px; }
-  .titulo_inicio {
-    font-weight: bolder;
-    font-size: 17px;
-    margin-left: 10px; }
-  .checkbtn {
-    display: block; }
-  ul {
-    position: fixed;
-    width: 50%;
-    height: 70vh;
-    background: black;
-    top: 60px;
-    left: -70%;
-    text-align: center;
-    transition: all .5s;
-    flex-direction: column; }
-  nav ul li {
-    display: block;
-    margin: 50px 0;
-    line-height: 8px; }
-  nav ul li a {
-    font-size: 20px; }
-  li a:hover, li a.active {
-    background: none;
-    color: red; }
-  #check:checked ~ ul {
-    left: 0; }
-  .videos {
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    width: 0 0 100%;
-    max-width: 0 0 300px; } }
-
-@media (max-width: 1024px) {
-  .Messi_Titulo {
-    color: black;
-    font-size: 55px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center; }
-  .imagen_inicio {
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 0 500px;
-    height: 0 500px; }
-  .titulo_inicio {
-    font-weight: bolder;
-    font-size: 22px;
-    margin-left: 10px; }
-  .checkbtn {
-    display: block; }
-  ul {
-    position: fixed;
-    width: 50%;
-    height: 70vh;
-    background: black;
-    top: 80px;
-    left: -90%;
-    text-align: center;
-    transition: all .5s;
-    flex-direction: column; }
-  nav ul li {
-    display: block;
-    margin: 50px 0;
-    line-height: 8px; }
-  nav ul li a {
-    font-size: 26px; }
-  li a:hover, li a.active {
-    background: none;
-    color: red; }
-  #check:checked ~ ul {
-    left: 0; }
-  .videos {
-    display: grid;
-    justify-content: center;
-    width: 0 20%;
-    height: 0 20px; } }
-
 .imagen-fondo {
   background-image: url("../../img/arg.png");
   background-repeat: no-repeat;
@@ -292,8 +113,7 @@ li a.active, li a:hover {
 .prueba_parrafo {
   font-size: 19px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  margin-left: 10px; }
+  font-weight: bold; }
 
 .boton-inicio {
   background: black;
@@ -308,72 +128,3 @@ li a.active, li a:hover {
   border-radius: 4px;
   text-transform: uppercase;
   transition: .5s; }
-
-/* responsive en inicio */
-@media (max-width: 425px) {
-  .Titulos {
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    margin-left: 10px; }
-  .prueba_parrafo {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    margin-left: 10px; }
-  .boton-inicio {
-    display: inline-flex;
-    padding: 0 40% 0;
-    background-color: black;
-    color: #fff;
-    text-align: left; } }
-
-@media (max-width: 768px) {
-  .Titulos {
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    margin-left: 10px; }
-  .prueba_parrafo {
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    margin-left: 22px;
-    text-align: left; }
-  .boton-inicio {
-    display: inline-flex;
-    padding: 0 40% 0;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    font-size: 18px; } }
-
-@media (max-width: 1024px) {
-  .Titulos {
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    margin-left: 10px; }
-  .prueba_parrafo {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    justify-content: center;
-    margin-left: 70px;
-    width: 850px; }
-  .boton-inicio {
-    display: inline-flex;
-    padding: 0 42% 0;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    font-size: 19px; } }
