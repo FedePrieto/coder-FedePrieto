@@ -48,13 +48,17 @@
 .imagenes_pagina {
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  gap: 20px; }
 
-.imagen_inicio {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center; }
+/*Responsive en imagenes*/
+@media (max-width: 425px) {
+  .imagenes_pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .imagenes_pagina img {
+      width: 100%; } }
 
 body {
   background-image: url(../img/arg.png);
