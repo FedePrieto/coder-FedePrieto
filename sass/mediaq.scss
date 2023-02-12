@@ -1,3 +1,118 @@
+
+@media (max-width: 1024px){
+    nav{
+        ul{
+            display: flex;
+            li{
+                justify-content: center;
+                margin-right: 20px;
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+        }
+    }
+    .Messi_Titulo{
+        color: black;
+        font-size: 50px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imagen-inicio{
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        margin-right: 150px;
+    }
+   
+    .titulo_inicio{
+        font-weight: bolder;
+        margin-right: 150px;
+        margin-left: 6px;
+    }
+    
+    .videos{
+        display: grid;
+        justify-content: space-around;
+        margin-right: 150px;
+    }
+    
+    .Titulos{
+        display: flex;
+        text-decoration: underline;
+        font-weight: bolder;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        padding: 8px;
+    }
+
+    .prueba_parrafo{
+        font-size: 16px;
+        font-family: system-ui;
+        font-weight: bolder;
+        margin-left: 2px;
+    }
+
+    .boton-inicio{
+        display: flex;
+        background: black;
+        height: 70px;
+        width: 100%;
+        justify-content: center;
+        margin-right: 20px;
+        color: #fff;
+        font-size: 19px;
+        padding: 7px 13px;
+        border-radius: 4px;
+        text-transform: uppercase;
+        transition: .5s;
+    }
+
+    .imagenes_pagina{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+   
+    .texto-formulario{
+        font-weight: bold;
+        margin-left: 15px;
+        color: black;
+   }
+
+   .imagen-formulario{
+        margin-left: 318px;
+   }
+   
+   .sub-titulo{
+        font-weight: bold;
+        margin-left: 22px;
+        font-size: 19px;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: underline;
+   }
+    
+   .nav{
+        ul{
+            li{
+                display: flex;
+                justify-content: center;
+                margin-right: 20px;
+                padding: 0
+                box-sizing: border-box;
+            }
+        }
+    }
+    
+}
+
+
 @media (max-width: 768px){
     .nav{
         ul{
@@ -215,7 +330,3 @@
 
 }
     
-
-@media (max-width: 320px){
-
-}

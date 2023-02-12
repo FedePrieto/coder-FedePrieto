@@ -17,18 +17,30 @@
 .texto-formulario {
   font-weight: bold;
   margin-left: 15px;
-  color: #fff; }
+  color: black; }
 
 .texto-sorteo {
   font-weight: bolder;
   margin-left: 15px;
   font-family: Arial, Helvetica, sans-serif; }
 
+.imagen-formulario {
+  margin-left: 520px; }
+
 .imagenes_pagina {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px; }
+
+.Titulos {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 15px; }
 
 body {
   background-image: url(../img/arg.png);
@@ -103,6 +115,10 @@ li a.active, li a:hover {
   padding: 0;
   display: flex;
   justify-content: center; }
+
+.titulo_inicio {
+  font-weight: bold;
+  margin-left: 7px; }
 
 .imagen-fondo {
   background-image: url("../../img/arg.png");
